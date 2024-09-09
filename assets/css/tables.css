@@ -1,0 +1,75 @@
+
+    .table-responsive{
+        overflow-x: auto;
+    }
+    .truncate {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 150px; /* adjust this value as needed */
+    }
+
+    td{
+        border:none !important;
+    }
+
+    th {
+        border: none !important;
+    }
+
+    .pending {
+        color: #FFCC00;
+    }
+
+    .confirmed {
+        color: green;
+    }
+
+    .cancelled {
+        color: red;
+    }
+
+    .button-container {
+        margin-top: 20px;
+    }
+
+    #view-booking_info,
+    #view-booking_paginate,
+    #view-booking_length,
+    #view-booking_filter {
+        font-size: 14px; /* Set your desired font size */
+    }
+    .paginate_button {
+        padding: 0.2em 0.5em;
+        font-size: 0.9em;
+        color:red;
+    }
+    /* Adjust the pagination size */
+    .dataTables_paginate {
+        font-size: 12px; 
+    }
+    
+    /* Adjust the size of the pagination buttons */
+    .dataTables_paginate .paginate_button {
+        font-size: 12px; 
+        padding: 5px 8px; 
+        margin: 2px; 
+    }
+    
+    
+    
+    /* Adjust the size of the search input */
+    .dataTables_filter input {
+        font-size: 12px;
+        padding: 5px;
+        margin:auto;
+    }
+
+    /* Adjust the width of the search input */
+    .dataTables_filter {
+        text-align:left !important;
+    }
+
+    
+
+  

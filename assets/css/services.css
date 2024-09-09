@@ -1,0 +1,127 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
+
+html,
+body {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  height: 100%;
+  width: 100%; 
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+ 
+.wrapper {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.container-fostrap {
+  display: table-cell;
+  padding: 1em;
+  text-align: center;
+  vertical-align: middle;
+  background: #f9faf7;
+}
+
+.fostrap-logo {
+  width: 100px;
+  margin-bottom:15px
+}
+
+h2.heading {
+  color: #fff;
+  font-size: 1.15em;
+  font-weight: 900;
+  margin: 0 0 0.5em;
+  color: #505050;
+}
+
+@media (min-width: 450px) {
+  h1.heading {
+    font-size: 3.55em;
+  }
+}
+
+@media (min-width: 760px) {
+  h1.heading {
+    font-size: 3.05em;
+  }
+}
+
+@media (min-width: 900px) {
+  h1.heading {
+    font-size: 3.25em;
+    margin: 0 0 0.3em;
+  }
+} 
+
+.card {
+    display: block; 
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #292b2c;
+    border-radius: 2px;
+    color: #fff;
+}
+
+
+.img-card {
+  width: 100%;
+  height:200px;
+  border-top-left-radius:2px;
+  border-top-right-radius:2px;
+  display:block;
+    overflow: hidden;
+}
+
+.img-card img{
+  width: 100%;
+  height: 200px;
+  object-fit:cover; 
+  transition: all .25s ease;
+}
+
+.card-content {
+  padding:15px;
+  text-align:left;
+  color: #fff;
+}
+
+.card-title {
+  margin-top:0px;
+  font-weight: 700;
+  font-size: 1.65em;
+  color: #fff;
+}
+
+.card-title a {
+  color: #fff;
+  text-decoration: none !important;
+}
+
+.card-read-more {
+  border-top: 1px solid #D4D4D4;
+}
+
+.card-read-more a {
+  text-decoration: none !important;
+  padding:10px;
+  font-weight:600;
+  text-transform: uppercase
+}
+
+.submit-btn {
+  margin-top: 1em;
+  padding: .75em;
+  border-radius: .2em;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+}
+
+.submit-btn:hover{
+  background: #dbb72b;
+  border: 1px solid #dbb72b;
+  color: #fff;
+}

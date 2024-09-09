@@ -1,0 +1,35 @@
+
+        .modal-header {
+            background-color: #292b2c;
+            color: #fff;
+            padding: 15px;
+        }
+        .modal-content {
+            font-family: sans-serif; 
+        }
+        .modal-body {
+            padding: 25px;
+            margin-bottom: 5px;
+            text-align:center;
+            font-size: 16px;
+        }
+        .modal-footer{
+            margin-top: 0;
+            padding:0;
+        }
+        #close-btn {
+            background-color: #ccc; /* Gray or a neutral color */
+            color: #333;
+            border:none;
+            font-size: 15px;
+        }
+        #delete-btn {
+            font-size: 15px;
+        }
+
+        #dismiss{
+            border:none;
+            background:none;
+            color:white;
+            font-size: 12px;
+        }

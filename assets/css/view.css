@@ -1,0 +1,36 @@
+/* Navigation Bar */
+.navbar {
+    box-shadow: 0 8px 22px rgba(0,0,0,0.1);
+}
+
+.navbar .logo{
+    width:200px;
+}
+ 
+.navbar .nav-link {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Noto Sans Sora Sompeng', sans-serif;
+}
+.navbar .nav-item a:hover{
+    text-decoration: underline;
+    text-decoration-color:#FFDE59;
+    text-decoration-style: solid;
+    text-decoration-thickness: 50%;
+}
+.navbar .nav-item a:active{
+    background-color:#FFDE59;
+}
+
+
+ 
+.navbar .btn {
+    font-size: 12px;
+    padding: 10px 10px;
+}
+ 
+.btn{
+    padding:14px 18px;
+    border-width: 2px;
+    border-radius: 0;
+}

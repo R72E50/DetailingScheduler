@@ -1,0 +1,177 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+
+
+/* html */
+body {
+	background: #f9faf7;
+    color: black;
+}
+
+/* Card */
+.booking-form {
+	background: #292b2c;
+	max-width: 668px;
+	width: 100%;
+    margin: 2.5rem auto;
+	padding: 30px;
+}
+
+.booking-form .form-group {
+	position: relative;
+	margin-bottom: 20px;
+} 
+
+.booking-form .form-control {
+	background-color: transparent;
+	height: 65px;
+	border-radius: 0px;
+	-webkit-transition: 0.2s;
+	transition: 0.2s;
+	color: #fff;
+	border: 0px;
+	font-size: 16px;
+	font-weight: 700;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: 2px solid #4d4d4d;
+}
+
+.booking-form .form-control::-webkit-input-placeholder {
+	color: rgba(255, 255, 255, 0.3);
+}
+
+.booking-form .form-control:-ms-input-placeholder {
+	color: rgba(255, 255, 255, 0.3);
+}
+
+.booking-form .form-control::placeholder {
+	color: rgba(255, 255, 255, 0.3);
+}
+
+.booking-form .form-group.input-not-empty .form-control {
+	border-color: #ffde5988;
+	padding-bottom: 20px;
+}
+
+.booking-form .form-label {
+	color: #000;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 24px;
+	height: 24px;
+	font-size: 14px;
+	position: absolute;
+	left: 0;
+	bottom: 0px;
+	opacity: 0;
+	pointer-events: none;
+	display: block;
+	width: 100%;
+	background: #4d4d4d;
+	padding: 0px 15px;
+	-webkit-transition: 0.2s all;
+	transition: 0.2s all;
+}
+
+.booking-form .form-group.input-not-empty .form-label {
+	opacity: 1;
+	bottom: 0px;
+	color: #292b2c;
+	background: #ffde5988;
+}
+
+.booking-form input[type="date"].form-control,
+.booking-form input[type="time"].form-control {
+	padding-bottom: 20px;
+}
+
+.booking-form input[type="date"].form-control:invalid,
+.booking-form input[type="time"].form-control:invalid {
+	color: rgba(255, 255, 255, 0.3);
+}
+
+.booking-form input[type="date"].form-control+.form-label,
+.booking-form input[type="time"].form-control+.form-label {
+	color: #292b2c;
+	opacity: 1;
+}
+
+.booking-form select.form-control {
+	padding-bottom: 20px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.booking-form select.form-control option {
+	color: #292b2c;
+}
+
+.booking-form select.form-control:invalid {
+	color: rgba(255, 255, 255, 0.3);
+}
+
+.booking-form select.form-control+.select-arrow {
+	position: absolute;
+	right: 0px;
+	bottom: 26px;
+	width: 32px;
+	line-height: 32px;
+	height: 32px;
+	text-align: center;
+	pointer-events: none;
+	color: rgba(255, 255, 255, 0.3);
+	font-size: 14px;
+}
+
+.booking-form select.form-control+.select-arrow:after {
+	content: '\279C';
+	display: block;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.booking-form .form-group.input-not-empty select.form-control+.select-arrow {
+	color: #fff;
+}
+
+.booking-form select.form-control~.form-label {
+    margin-bottom: 0;
+	color: #292b2c;
+	opacity: 1;
+}
+.form-label{
+    margin-bottom: 0;
+}
+
+.booking-form .form-btn {
+	margin-top: 2rem;
+}
+
+.booking-form .submit-btn {
+	font-weight: 700;
+	height: 55px;
+	color: #292b2c;
+	background-color: #FFDE59;
+	font-size: 18px;
+	border-radius: 0px;
+	width: 100%;
+	border: none;
+}
+
+.card-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.card-header h4 {
+    color: white;
+}
+.link{
+	color: rgba(255, 255, 255, 0.3);
+}
+.link:hover{
+	color:whitesmoke;
+	text-decoration: underline;
+}

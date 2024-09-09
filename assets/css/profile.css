@@ -1,0 +1,449 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Sora+Sompeng:wght@400;700&display=swap');
+
+
+/* html */
+body {
+    font-family: 'Noto Sans Sora Sompeng', sans-serif;
+    line-height: 1.7;
+    color: black;
+}
+@media (min-width: 768px) {
+    body {
+      overflow-y: hidden;
+    }
+  }
+h1,h2,h3,h4,h5,h6,
+.display-4{
+    color:black;
+    font-weight:700;
+}
+
+a{
+    color:black;
+    text-decoration:none;
+}
+
+.text-prim{
+    color: #FFDE59
+}
+
+img{
+    width:100%;
+}
+
+/* Navigation Bar */
+.navbar {
+    box-shadow: 0 8px 22px rgba(0,0,0,0.1);
+}
+
+.logo{
+    width:200px;
+}
+ 
+.navbar .nav-link {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Noto Sans Sora Sompeng', sans-serif;
+}
+.navbar .nav-item a:hover{
+    text-decoration: underline;
+    text-decoration-color:#FFDE59;
+    text-decoration-style: solid;
+    text-decoration-thickness: 50%;
+}
+.navbar .nav-item a:active{
+    background-color:#FFDE59;
+}
+
+
+ 
+.navbar .btn {
+    font-size: 12px;
+    padding: 10px 10px;
+}
+ 
+.btn{
+    padding:14px 18px;
+    border-width: 2px;
+    border-radius: 0;
+}
+
+
+
+/* Modal 
+.social-login{
+    text-align: center;
+}
+
+.social_log{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.social_log li{
+    margin: 0 6px;
+}
+.social_log li img{
+    width:45px;
+}
+
+.social-login p{
+    color:#8c8c8c;
+}
+
+.signin_modal .nav-tabs .nav-link{
+    background-color: #292b2c;
+    border-radius: 0;
+    font-weight: 600;
+    border-color: #292b2c;
+    padding: 1.2rem 0;
+    color:#FFDE59;
+}
+
+.signin_modal .nav-tabs .nav-link.active{
+    background-color: #FFDE59;
+    color:#292b2c;
+}
+
+.signin_modal .nav-tabs .nav-item{
+    width: 50%;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.signin_modal .nav-tabs{
+    border-bottom: none;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+.form-control {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #292b2c;
+    color:#FFDE59;
+}
+.signin_tab{
+    padding: 0 3rem;
+}
+.signin_tab input.form-control{
+    font-size: 12px;
+    color:whitesmoke;
+    height: 40px;
+    background-color: #2c2d2d;
+}
+.signin_link{
+    text-align: center;
+    color: #FFDE59;
+    margin-top:  0.5rem;
+}
+
+.signin_dialog .modal-header{
+    text-align: center;
+    display: block;
+    border: none;
+}
+
+.signin_dialog .modal-header img{
+    width:250px;
+    margin:auto;
+    margin-bottom: .5rem;
+}
+.signin_dialog .modal-header p{
+    color:#FFDE59;
+    font-size: 12px;
+    padding: 0 1rem;
+}
+
+.signin_dialog .modal-content{
+    background-color: #292b2c;
+    border: none;
+}
+
+.signin_dialog .modal-body{
+    background-color: #292b2c;
+    border: none;
+}
+
+.signin_dialog .modal-body .btn{
+    background-color: #FFDE59;
+    color:#292b2c;
+    border: none;
+}
+*/
+
+/* Landing Page */
+
+.hero{
+    background-image: url(../../img/upscale.jpg);
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    position:relative;
+   
+}
+
+.hero::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+    pointer-events: none;
+}
+#hero .row #button1{
+    background-color: #FFDE59;
+    color: #292b2c;
+}
+
+
+
+
+
+
+
+
+/* Booking Modal */
+.custom-modal {
+    margin-top: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.custom-modal .modal-dialog {
+    max-width: 1200px; /* Set the desired max width */
+  }
+
+  .custom-modal .modal-content {
+    width: 100%; /* Set the desired width */
+    height:500px; /* Set the desired height */
+  }
+
+
+
+/* booking */
+.section {
+	position: relative;
+	height: 100vh;
+}
+
+.section .section-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.booking-form {
+	background: #292b2c;
+	max-width: 768px;
+	width: 100%;
+	margin: -100px auto auto auto;
+	padding: 30px;
+}
+
+.booking-form .form-group {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.booking-form .form-control {
+	background-color: transparent;
+	height: 65px;
+	padding: 0px 15px;
+	border-radius: 0px;
+	-webkit-transition: 0.2s;
+	transition: 0.2s;
+	color: #fff;
+	border: 0px;
+	font-size: 16px;
+	font-weight: 700;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: 2px solid #4d4d4d;
+}
+
+.booking-form .form-control::-webkit-input-placeholder {
+	color: rgba(255, 255, 255, 0.3);
+}
+
+.booking-form .form-control:-ms-input-placeholder {
+	color: rgba(255, 255, 255, 0.3);
+}
+
+.booking-form .form-control::placeholder {
+	color: rgba(255, 255, 255, 0.3);
+}
+
+.booking-form .form-group.input-not-empty .form-control {
+	border-color: #ffde5988;
+	padding-bottom: 20px;
+}
+
+.booking-form .form-label {
+	color: #000;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 24px;
+	height: 24px;
+	font-size: 14px;
+	position: absolute;
+	left: 0;
+	bottom: 0px;
+	opacity: 0;
+	pointer-events: none;
+	display: block;
+	width: 100%;
+	background: #4d4d4d;
+	padding: 0px 15px;
+	-webkit-transition: 0.2s all;
+	transition: 0.2s all;
+}
+
+.booking-form .form-group.input-not-empty .form-label {
+	opacity: 1;
+	bottom: 0px;
+	color: #292b2c;
+	background: #ffde5988;
+}
+
+.booking-form input[type="date"].form-control,
+.booking-form input[type="time"].form-control {
+	padding-bottom: 20px;
+}
+
+.booking-form input[type="date"].form-control:invalid,
+.booking-form input[type="time"].form-control:invalid {
+	color: rgba(255, 255, 255, 0.3);
+}
+
+.booking-form input[type="date"].form-control+.form-label,
+.booking-form input[type="time"].form-control+.form-label {
+	color: #292b2c;
+	opacity: 1;
+}
+
+.booking-form select.form-control {
+	padding-bottom: 20px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.booking-form select.form-control option {
+	color: #292b2c;
+}
+
+.booking-form select.form-control:invalid {
+	color: rgba(255, 255, 255, 0.3);
+}
+
+.booking-form select.form-control+.select-arrow {
+	position: absolute;
+	right: 0px;
+	bottom: 26px;
+	width: 32px;
+	line-height: 32px;
+	height: 32px;
+	text-align: center;
+	pointer-events: none;
+	color: rgba(255, 255, 255, 0.3);
+	font-size: 14px;
+}
+
+.booking-form select.form-control+.select-arrow:after {
+	content: '\279C';
+	display: block;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.booking-form .form-group.input-not-empty select.form-control+.select-arrow {
+	color: #fff;
+}
+
+.booking-form select.form-control~.form-label {
+    margin-bottom: 0;
+	color: #292b2c;
+	opacity: 1;
+}
+.form-label{
+    margin-bottom: 0;
+}
+
+.booking-form .form-btn {
+	margin-top: 10px;
+}
+
+.booking-form .submit-btn {
+	font-weight: 700;
+	height: 55px;
+	color: #292b2c;
+	background-color: #FFDE59;
+	font-size: 18px;
+	border-radius: 0px;
+	width: 100%;
+	border: none;
+}
+
+
+
+/* Footer */
+
+.footer-top {
+    padding-bottom: 90px;
+    padding-top: 90px;
+    background-color: #292b2c;
+}
+
+.footer-top h5{
+    font-family: 'Noto Sans Sora Sompeng', sans-serif;
+}
+
+.footer-top ul li a{
+    color:gray;
+}
+
+.footer-top ul li a:hover{
+    color:#FFDE59;
+}
+
+
+.footer-bottom {
+    color:whitesmoke;
+    background-color: #2c2d2d;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+.social-icons a {
+    width: 34px;
+    height: 34px;
+    background-color: #292b2c;
+    border-radius: 2px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    margin-left: 5px;
+    transition: all 0.4s ease;
+    border: 2px solid black;
+}
+.social-icons a:hover {
+    color: #FFDE59;
+    background-color: transparent;
+    border-color: #292b2c;
+}
+
+.card{
+    width:500px;
+    height:50px;
+}
